@@ -17,7 +17,7 @@ $ chmod +x my_scripts/fccScript.zsh
 
 3) Export script to your PATH environment variable
 
-Copy the path of the script
+Copy the path of the script using pwd
 ```
 $ pwd
 ```
@@ -27,9 +27,9 @@ Open the .bashrc file using any texteditor.
 $ vim ~/.bashrc
 ```
 
-Replace the whole ACTUAL_PATH_TO_SCRIPT by the path from pwd
+Replace the whole ACTUAL_PATH_TO_SCRIPT by the output from pwd and add the following line at end of .bashrc
 ```
-$ EXPORT PATH="ACTUAL_PATH_TO_SCRIPT:$PATH"
+EXPORT PATH="ACTUAL_PATH_TO_SCRIPT:$PATH"
 ```
 
 Exit the file and source your bashrc file for the changes to be applied.
