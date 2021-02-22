@@ -29,7 +29,7 @@ $ vim ~/.bashrc
 
 Replace the whole ACTUAL_PATH_TO_SCRIPT by the output from pwd and add the following line at end of .bashrc
 ```
-EXPORT PATH="ACTUAL_PATH_TO_SCRIPT:$PATH"
+EXPORT PATH="ACTUAL_PATH_TO_SCRIPT/scriptByAatit:$PATH"
 ```
 
 Exit the file and source your bashrc file for the changes to be applied.
