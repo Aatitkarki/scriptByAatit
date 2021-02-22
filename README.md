@@ -1,5 +1,5 @@
 # my_scripts
-Scripts for my workflow
+Scripts for my workflow written in bash
 
 ## fccScript
 This script will add files and folders as of clean code architecture.
